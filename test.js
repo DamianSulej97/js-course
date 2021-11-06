@@ -1,4 +1,9 @@
-var linki = document.getElementsByTagName("a");
+var linki = document.getElementById("link");
 
-linki[0].innerHTML = "Siema";
-linki[1].innerHTML = "Co tam";
+linki.onclick = function () {
+  alert("you clicked me");
+};
+
+linki.onmouseover = function () {
+  alert("you hovered over me");
+};
