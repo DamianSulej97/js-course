@@ -1,26 +1,14 @@
-// strings
 let email = "examplemail@mail.com";
 
-console.log("hello");
-console.log(email);
-// string concatenation
-let firstName = "Mariusz";
-let secondName = "Pudzianowski";
-let fullName = firstName + " " + secondName;
+// let result = email.lastIndexOf("l");
+// console.log(result);
 
-console.log(fullName);
+// let liczba = email.length;
+// console.log(liczba);
 
-// getting characters
-console.log(fullName[2]);
+// let result = email.slice(4, 10);
+// let resulte = email.substr(4, 10);
+// console.log(resulte);
 
-// string length
-console.log(fullName.length);
-
-// string methods
-console.log(fullName.toUpperCase());
-let result = fullName.toLowerCase();
-
-console.log(result, fullName);
-
-let index = email.indexOf("@");
-console.log(index);
+let result = email.replace("a", "D");
+console.log(result);
