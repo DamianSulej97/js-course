@@ -1,14 +1,27 @@
-let email = "examplemail@mail.com";
+let radius = 10;
+const pi = 3.14;
 
-// let result = email.lastIndexOf("l");
-// console.log(result);
+// console.log(radius, pi);
 
-// let liczba = email.length;
-// console.log(liczba);
+//math operators +, -, *, /, **, %
 
-// let result = email.slice(4, 10);
-// let resulte = email.substr(4, 10);
-// console.log(resulte);
+// let result = radius % 3;
+// let result = pi * radius ** 2;
 
-let result = email.replace("a", "D");
+// let result = 5 * (10 - 3) ** 2;
+
+let likes = 10;
+
+//likes = likes + 1;
+//likes++;
+//likes--;
+//likes += 10;
+//likes *= 10;
+//likes -= 5;
+//console.log(likes);
+
+// NaN - not a number
+
+let result = "the blog has " + likes + " likes";
+
 console.log(result);
