@@ -1,14 +1,12 @@
-let age = 25;
+let score = "100";
 
-// loose comparison
+// score = Number(score);
+// console.log(score + 1);
+// console.log(typeof score);
 
-// console.log(age == 25);
-// console.log(age == "25");
-
-// console.log(age != 25);
-// console.log(age != "25");
-
-// strict comparison
-
-console.log(age === 25);
-console.log(age === "25");
+// let result = Number("hello");
+// let result = String(50);
+//let result = Boolean(100);
+// let result = Boolean(0);
+let result = Boolean("0");
+console.log(result);
