@@ -1,21 +1,29 @@
-let ninjas = ["tytus", "romek", "atomek"];
+// booleans & comparisons
+console.log(true, false, "true", "false");
 
-// ninjas[1] = "ken";
-// console.log(ninjas[1]);
+// methods can return booleans
+let email = "luigi@thenetninja.co.uk";
+let names = ["mario", "luigi", "toad"];
 
-// let ages = [20, 25, 30, 35];
-// console.log(ages[2]);
+// let result = email.includes("!");
+// let result = names.includes("luigi");
+// console.log(result);
 
-// let random = ["shaun", "crystal", 20, 30];
-// console.log(random);
+// comparison operators
+let age = 25;
 
-//console.log(ninjas.length);
+// console.log(age == 25);
+// console.log(age == 32);
+// console.log(age != 24);
+// console.log(age > 22);
+// console.log(age < 20);
+// console.log(age <= 25);
+// console.log(age >= 25);
 
-// array methods
+let name = "shaun";
 
-//let result = ninjas.join("-");
-//let result = ninjas.indexOf("atomek");
-//let result = ninjas.concat(["tytus", "romek"]);
-let result = ninjas.push("ken");
-result = ninjas.pop();
-console.log(result);
+console.log(name == "shaun");
+console.log(name == "Shaun");
+console.log(name > "crystal");
+console.log(name > "Shaun");
+console.log(name > "Crystal");
